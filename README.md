@@ -1,6 +1,7 @@
 # garlic_multi-labels
 multi-label model for garlic root trimming image classification
-# This is code for following submitted paper
+
+# This is code for the following submitted paper.
 
 Image classification of root-trimmed garlic using multi-label and multi-class classification with deep convolutional neural network
 
@@ -18,8 +19,6 @@ https://www.journals.elsevier.com/postharvest-biology-and-technology
 ## Update(3-17-2022)
 Changes
 - first upload the code
-
-
 
 
 ## Dependencies
@@ -50,7 +49,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 
 2. Train the model
  open file multi_train.py
-# 1 Edit parameter in the INPUT section 
+ 1 Edit parameter in the INPUT section 
 
  Traing the model with multi_lable =>   multi_label = True
  Traing the model with multi_class =>   multi_label = False
@@ -58,8 +57,8 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
  Traing the model with backround image =>   background_class = True
  Traing the model without backround image =>   background_class = False
 
-# Note "dataset" folder should be in the same root folder with multi_train.py
-# 2 Run the training
+ Note "dataset" folder should be in the same root folder with multi_train.py
+2 Run the training
 python multi_train.py
 
 
@@ -73,12 +72,9 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 
 save pre-traing models are available at "models"
 
-# 1 Edit parameter in the INPUT section  of predict_multi_label.py
+1 Edit parameter in the INPUT section  of predict_multi_label.py
  add image path
  img_path = "imgs/Garlic_01.jpg"
  
 Run
 python predict_multi_label.py
-
-
-
