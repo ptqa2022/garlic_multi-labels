@@ -41,6 +41,7 @@ Changes
 0. Check all dependencies installed
 
 1. download dataset at
+    
     Dataset
     https://drive.google.com/file/d/1zXM80R2ziObzo5DnQpKlGtH2S3ENAqj8/view?usp=sharing
 
@@ -67,6 +68,7 @@ Changes
 3 . Predict image class
 
  1-download pretrained models if necessary
+    
     Pre-train weights
     https://drive.google.com/file/d/1875xGUcKhDV4izvr4-ptBD--cIaU0QNG/view?usp=sharing
 
@@ -76,8 +78,10 @@ Changes
     save pre-trained weights to "models" folder
 
  2- Edit parameters in the INPUT section  of predict_multi_label.py
+    
     for example: add image path
     img_path = "imgs/Garlic_01.jpg"
  
  3- Run
+    
     python predict_multi_label.py
