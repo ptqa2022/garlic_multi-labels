@@ -18,16 +18,16 @@ https://www.journals.elsevier.com/postharvest-biology-and-technology
 
 ## Update(3-17-2022)
 Changes
-- first upload the code
+- upload the code
 
 
 ## Dependencies
-- python 3 
+- python 3.7 
 - numpy
 - scipy
 - opencv-python
 - sklearn
-- tensorflow 2x and 1x 
+- tensorflow 2x (tested 2.7) or 1x (tested 1.9)
 - keras
 - pickle
 - imutils
@@ -49,7 +49,7 @@ Changes
 
 2. Train the model
 
- 1- Edit parameter in the INPUT section in the file  multi_train.py
+ 1- Edit parameters in the INPUT section in the file  multi_train.py
 
      Traing the model with multi_lable =>   multi_label = True
      Traing the model with multi_class =>   multi_label = False
@@ -65,16 +65,17 @@ Changes
 
 
 3 . Predict image class
- 1-download pretraned models if necessary
+
+ 1-download pretrained models if necessary
     Pre-train weights
     https://drive.google.com/file/d/1875xGUcKhDV4izvr4-ptBD--cIaU0QNG/view?usp=sharing
 
-    Pre-train weight licence:Creative Commons Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA)
+    Pre-trained weight licence:Creative Commons Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA)
     http://creativecommons.org/licenses/by-nc-sa/4.0/
 
-    save pre-traing weights to "models" folder
+    save pre-trained weights to "models" folder
 
- 2- Edit parameter in the INPUT section  of predict_multi_label.py
+ 2- Edit parameters in the INPUT section  of predict_multi_label.py
     for example: add image path
     img_path = "imgs/Garlic_01.jpg"
  
