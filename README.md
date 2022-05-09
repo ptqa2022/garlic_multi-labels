@@ -23,10 +23,10 @@ https://doi.org/10.1016/j.postharvbio.2022.111956
 
 ## Updated
 5-9-2022
-add online paper link and citation
+    - add online paper link and citation
 
 3-17-2022
-- upload the code
+    - upload the code
 
 
 ## Dependencies
