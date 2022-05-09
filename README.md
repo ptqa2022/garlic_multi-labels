@@ -1,7 +1,7 @@
 # garlic_multi-labels
 multi-label model for garlic root trimming image classification
 
-# This is code for the following submitted paper.
+# This is code for the following paper.
 
 Image classification of root-trimmed garlic using multi-label and multi-class classification with deep convolutional neural network
 
@@ -12,12 +12,20 @@ Pham Thi Quynh Anh1*, Dang Quoc Thuyet1,2, and Yuichi Kobayashi1
 
 *Corresponding author: fumut476@affrc.go.jp
 
-Submitted Journal: Postharvest Biology and Technology
+Journal: Postharvest Biology and Technology
 https://www.journals.elsevier.com/postharvest-biology-and-technology
 
 
+If you use or find out our data useful, please cite our paper in the journal of Postharvest Biology and Technology
+Citation:
+Anh, P. T. Q., Thuyet, D. Q. & Kobayashi, Y. Image classification of root-trimmed garlic using multi-label and multi-class classification with deep convolutional neural network. Postharvest Biol. Technol. 190, 111956, 2022.
+https://doi.org/10.1016/j.postharvbio.2022.111956
+
 ## Update(3-17-2022)
 Changes
+5-9-2022
+add online paper link and citation
+3-17-2022
 - upload the code
 
 
