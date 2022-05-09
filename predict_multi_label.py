@@ -11,8 +11,13 @@ Pham Thi Quynh Anh1*, Dang Quoc Thuyet1,2, and Yuichi Kobayashi1
 2Current affiliation: Institute of Research and Development, Taisei Rotec Corporation, 1456, Kamiya Kounosu City, Saitama 365-0027, Japan
 *Corresponding author: fumut476@affrc.go.jp
  
- Submitted Journal: Postharvest Biology and Technology
+ Journal: Postharvest Biology and Technology
  
+Citation:
+Anh, P. T. Q., Thuyet, D. Q. & Kobayashi, Y. Image classification of root-trimmed garlic using multi-label and multi-class classification with 
+deep convolutional neural network. Postharvest Biol. Technol. 190, 111956, 2022. 
+https://doi.org/10.1016/j.postharvbio.2022.111956
+
 Usage
 Note: pre-traing models are available at "models"
 # 1 Edit parameter in the INPUT section 
